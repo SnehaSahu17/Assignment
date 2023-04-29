@@ -6,6 +6,8 @@ import Xstream from "./components/Xstream";
 import Swapx from "./components/Swapx";
 import ForDeveloper from "./components/ForDeveloper";
 import Sponser from "./components/Sponser";
+import Footer from "./components/Footer"
+
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
      <Swapx/>
      <ForDeveloper/>
      <Sponser/>
-
+     <Footer/>
      </div>
     
   );
