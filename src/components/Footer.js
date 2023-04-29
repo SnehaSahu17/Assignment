@@ -4,7 +4,7 @@ import LogoMob from "../assests/LogoMob.png"
 
 function footer() {
   return (
-    <div className='max-w-7xl mt-20 mx-auto relative ' >
+    <div className='max-w-7xl mt-20 mx-auto relative  ' >
         <img src={foot} className='w-full h-full'></img>
         <div className='absolute w-full h-fit top-20 flex mt-10 justify-stretch  items-center'>
             

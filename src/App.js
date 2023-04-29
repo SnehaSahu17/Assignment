@@ -11,7 +11,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="bg-black w-full h-full">
+    <div className="bg-black w-full h-full ">
      <div className="pt-14 px-8"><Navbar/></div>
      <SectionOne/>
      <SectionTwo/>
@@ -21,7 +21,8 @@ function App() {
      <Swapx/>
      <ForDeveloper/>
      <Sponser/>
-     <Footer/>
+     <div className="pb-20"><Footer/></div>
+     
      </div>
     
   );
