@@ -28,12 +28,12 @@ function Swapx() {
         As a developer, you can leverage SwapX to build cross-chain DeFi automation across any EVM chain of your preference. With the ability to create limit orders and DCAs through the frontend, SwapX is accessible to any user who wants to trade across different EVM chains.
         </p>
         
-        <div className=''>
+        
         <button className='w-44 h-12 mt-14 mb-4 px-4 bg-[#2BFFB1] flex items-center justify-between rounded-xl'>
                <span className='text-lg text-[#000000] font-medium'>See Docs</span>
                <BsArrowUpRight className='text-[#000000] font-medium text-lg'/>
          </button>
-        </div>
+       
 
     </div>
 </div>

@@ -4,6 +4,7 @@ import SectionTwo from "./components/SectionTwo";
 import Autopay from "./components/Autopay"
 import Xstream from "./components/Xstream";
 import Swapx from "./components/Swapx";
+import ForDeveloper from "./components/ForDeveloper";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
      <Autopay/>
      <Xstream/>
      <Swapx/>
+     <ForDeveloper/>
      </div>
     
   );
