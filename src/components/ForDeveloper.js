@@ -4,7 +4,7 @@ import ForDev from '../assests/ForDev.png'
 
 function ForDeveloper() {
   return (
-    <div className=" w-[90%]  relative mt-44 mx-auto leading-8 tracking-wide ">
+    <div className=" w-[90%]  relative mx-auto leading-8 tracking-wide ">
         <img src={ForDev}></img>
        
         <div className='absolute top-[15%]  flex flex-col text-[#FFFFFF] '>
