@@ -1,6 +1,9 @@
 import Navbar from "./components/Navbar";
 import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
+import Autopay from "./components/Autopay"
+import Xstream from "./components/Xstream";
+import Swapx from "./components/Swapx";
 
 function App() {
   return (
@@ -8,7 +11,12 @@ function App() {
      <div className="pt-14 px-8"><Navbar/></div>
      <SectionOne/>
      <SectionTwo/>
-    </div>
+    
+     <Autopay/>
+     <Xstream/>
+     <Swapx/>
+     </div>
+    
   );
 }
 

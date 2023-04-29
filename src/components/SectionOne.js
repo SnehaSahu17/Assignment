@@ -7,10 +7,10 @@ function SectionOne() {
     <div className=''>
     <div className='max-w-7xl mt-10 mx-auto relative ' >
         <img src={SecOne} className='w-full h-full'></img>
-        <div className='absolute w-full h-fit top-20 flex flex-col  font-medium  '>
-            <div className='w-full'><img src={LogoMob} className='w-28'></img></div>
-            <p className='text-[#FFFFFF] text-xl max-w-lg text-centre mt-12'>Cross-chain interoperability made easy with our automation middleware.</p>
-            <button className='w-44 h-12 bg-[#2BFFB1] text-centre rounded-xl mt-8'>
+        <div className='absolute w-full h-fit top-20 flex flex-col font-medium  '>
+            <span className='mx-auto'><img src={LogoMob} className='w-28'></img></span>
+            <span className='text-[#FFFFFF] text-xl max-w-lg text-center mt-12 mx-auto'>Cross-chain interoperability made easy with our automation middleware.</span>
+            <button className='w-44 h-12 bg-[#2BFFB1] text-centre rounded-xl mt-8 mx-auto'>
                    <span className='text-lg text-[#000000] font-medium'>Let's Chat</span>
              </button>
         </div>
