@@ -23,10 +23,11 @@ function App() {
      
      <Swapx/>
       
-     {/* <ForDeveloper/>
+     <ForDeveloper/>
+     
      
      <Sponser/>
-    
+    {/* 
      <div className="pb-20"><Footer/></div>    */}
      </div>
     

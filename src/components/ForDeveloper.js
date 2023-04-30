@@ -5,7 +5,7 @@ import ForDevMob from '../assests/ForDevMob.png'
 
 function ForDeveloper() {
   return (
-    <div className=" sm:w-[90%] mt-1 relative mx-auto leading-8 tracking-wide ">
+    <div className=" w-[390px]  sm:w-[90%] mt-1 relative mx-auto leading-8 tracking-wide ">
         <img src={ForDev} className='hidden sm:flex'></img>
         <img src={ForDevMob} className='sm:hidden'></img>
        

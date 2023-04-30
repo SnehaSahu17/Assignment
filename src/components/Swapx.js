@@ -7,7 +7,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function Swapx() {
   return (
-    <div className="w-[390px] sm:w-[90%]  relative  mt-10 md:mt-0 h-[983px] md:h-[800px] mx-auto text-[#FFFFFF] leading-8 tracking-wide ">
+    <div className="w-[390px] sm:w-[90%]  relative  mt-1 md:mt-0 h-[983px] md:h-[800px] mx-auto text-[#FFFFFF] leading-8 tracking-wide ">
     <img src={Back} className="w-[656.01px] mx-auto hidden sm:flex"></img>
     <div className="absolute  top-0 ">
       <div className="w-full relative  ">
