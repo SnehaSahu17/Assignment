@@ -7,14 +7,14 @@ import AutoMob from "../assests/AutopayMob.png";
 
 function Autopay() {
   return (
-    <div className="sm:w-[90%] relative mt-10 sm:mt-44 h-[800px] mx-auto text-[#FFFFFF] leading-8 tracking-wide ">
+    <div className="sm:w-[90%] h-[983px] md:h-[800px] relative mt-10 sm:mt-36  mx-auto text-[#FFFFFF] leading-8 tracking-wide ">
       <img src={Back} className="w-[656.01px] mx-auto hidden sm:flex"></img>
       <div className="absolute  top-0 ">
         <div className="w-full relative  ">
           <img src={Auto} className="hidden sm:flex"></img>
           <img src={AutoMob} className="sm:hidden"></img>
-          <div className="absolute top-8 flex-col px-4 sm:flex-row sm:top-[35%] sm:pl-36 flex justify-start items-start sm:items-center">
-            <h1 className="font-black text-4xl sm:text-5xl">Autopay</h1>
+          <div className="absolute top-6 flex-col px-4 sm:flex-row sm:top-[35%] sm:px-32 flex justify-start items-start sm:items-center">
+            <h1 className="font-black text-4xl sm:text-5xl  ">Autopay</h1>
             <span className="font-medium  text-sm sm:text-xl w-full sm:w-1/2 mt-5 sm:mt-0 sm:ml-24">
               the go-to solution for developers seeking a streamlined and
               accessible crypto integration.

@@ -11,20 +11,23 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="bg-black backdrop-blur w-full h-full">
-     <div className="pt-14 px-8"><Navbar/></div>
-     <SectionOne/>
-     <SectionTwo/>
-     <Autopay/>
+    <div className="bg-black backdrop-blur w-full h-full font-inter">
+     <div className="pt-20 px-2 md:px-28"><Navbar/></div>
+    <div className=" px-2 md:px-28"> <SectionOne/> </div>
      
-     <Xstream/>
+     <SectionTwo/>
+     
+     <Autopay/>
     
+     <Xstream/>
+     
      <Swapx/>
       
      <ForDeveloper/>
      
      <Sponser/>
-     <div className="pb-20"><Footer/></div> 
+    
+     <div className="pb-20"><Footer/></div>  
      </div>
     
   );
