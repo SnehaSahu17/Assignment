@@ -16,7 +16,7 @@ function App() {
     <div className=" px-2 md:px-28"> <SectionOne/> </div>
      
      <SectionTwo/>
-     
+     {/* 
      <Autopay/>
     
      <Xstream/>
@@ -27,7 +27,7 @@ function App() {
      
      <Sponser/>
     
-     <div className="pb-20"><Footer/></div>  
+     <div className="pb-20"><Footer/></div>   */}
      </div>
     
   );
