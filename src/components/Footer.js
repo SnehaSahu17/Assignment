@@ -1,5 +1,5 @@
 import React from 'react' 
-import foot from '../assests/Footer.png'
+import foot from '../assests/footer.png'
 import LogoMob from "../assests/LogoMob.png"
 
 function footer() {
