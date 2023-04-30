@@ -53,7 +53,7 @@ function Xstream() {
 
         <div className="hidden sm:flex">
           <button className="w-44 h-12 mt-14 mb-4 px-4 bg-[#2BFFB1] flex items-center justify-between rounded-xl">
-            <span className="text-lg text-[#000000] font-medium">See Docs</span>
+            <a href='https://fragments.gitbook.io/intro/xstream/what-is-xstream' target="_blank" rel="noreferrer" className="text-lg text-[#000000] font-medium">See Docs</a>
             <BsArrowUpRight className="text-[#000000] font-medium text-lg" />
           </button>
         </div>

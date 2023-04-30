@@ -7,6 +7,7 @@ import Swapx from "./components/Swapx";
 import ForDeveloper from "./components/ForDeveloper";
 import Sponser from "./components/Sponser";
 import Footer from "./components/Footer"
+import Sidebar from "./components/Sidebar";
 
 
 function App() {

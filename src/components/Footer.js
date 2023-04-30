@@ -13,13 +13,13 @@ function footer() {
           <h1 className='font-black w-72 sm:w-full text-[#D9D9D9] text-center text-3xl sm:text-5xl mx-auto'>Let’s setup a chat?</h1>
           <div className='px-12 '>
             <button className='w-44 sm:w-56 h-12 mt-10 p-4 mx-auto bg-[#2BFFB1] flex items-center justify-between rounded-xl'>
-              <span className='sm:text-lg text-[#000000] font-medium text-xs'>Schedule Meeting</span>
+              <a href='https://calendly.com/timbresociety' target="_blank" rel="noreferrer" className='sm:text-lg text-[#000000] font-medium text-xs'>Schedule Meeting</a>
               <BsArrowUpRight className='text-[#000000] font-medium text-lg' />
             </button>
           </div>
 
         </div>
-        <div className=' w-1/2 mt-20 sm:mt-0'><img src="https://res.cloudinary.com/dokgi5r35/image/upload/v1682843386/Logo_2_ohbdlq.png" className='w-28 ml-[80%]'></img></div>
+        <div className=' w-1/2 mt-20 sm:mt-0'><img src="https://res.cloudinary.com/dokgi5r35/image/upload/v1682843386/Logo_2_ohbdlq.png" className='w-28 ml-[60%]'></img></div>
 
       </div>
       <div className='w-full px-20 sm:px-8 '>

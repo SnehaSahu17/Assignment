@@ -15,7 +15,7 @@ function Swapx() {
           <img src={SwapMob} className="sm:hidden"></img>
           <div className="absolute top-6 flex-col px-4 sm:flex-row sm:top-[30%] sm:pl-20 flex justify-start items-start sm:items-center">
             <h1 className="font-black text-4xl sm:text-5xl">SwapX</h1>
-            <span className="font-medium  text-sm sm:text-xl w-full sm:w-full mt-5 sm:mt-0 sm:ml-20">
+            <span className="font-medium  text-sm sm:text-xl w-full sm:w-3/4 mt-5 sm:mt-0 sm:ml-20">
               A smart contract module that enables developers to create limit orders and DCAs between tokens on different EVM-compatible chains in a trustless and automated way.
             </span>
             <div className=" sm:hidden bg-gradient-to-r from-[#FFFFFF] to-[#285f48] w-full h-[1px] rounded-lg mt-4"></div>

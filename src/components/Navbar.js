@@ -6,6 +6,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 import { BsArrowUpRight } from "react-icons/bs";
 import { Link } from "react-scroll";
+import Sidebar from './Sidebar';
 
 const links = [
     {
@@ -38,18 +39,24 @@ function Navbar() {
 
                 </div>
                 <div className='text-[#838383]  text-lg font-medium space-x-20 hidden sm:flex'>
-                    <a href='\' className='hover:text-[#2BFFB1]'>
+                    <a href='https://www.autopay.finance/' target="_blank" rel="noreferrer" className='hover:text-[#2BFFB1]'>
                         Autopay
                     </a>
-                    <a href='\' className='hover:text-[#2BFFB1]'>
+                    <a href='https://autopay-xstream.vercel.app/' target="_blank" rel="noreferrer" className='hover:text-[#2BFFB1]'>
                         XStream
                     </a>
-                    <a href='\' className='hover:text-[#2BFFB1]'>
+                    <a href='https://eth-tokyo.vercel.app/' target="_blank" rel="noreferrer" className='hover:text-[#2BFFB1]'>
                         SwapX
                     </a>
                 </div>
                 <div onClick={() => setNav(!nav)} className='cursor-pointer text-[#FFFFFF]  z-10 sm:hidden'>
-                    {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+                    {nav ?
+                        <>
+                            <FaTimes size={30} />
+                            <Sidebar />
+                        </>
+                        :
+                        <FaBars size={30} />}
                 </div>
             </div>
         </div>

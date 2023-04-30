@@ -13,7 +13,7 @@ function SectionOne() {
           <span className='mx-auto hidden sm:flex'><img src="https://res.cloudinary.com/dokgi5r35/image/upload/v1682843386/Logo_2_ohbdlq.png" className='w-[117.39px] h-[88px]'></img></span>
           <span className='text-[#FFFFFF] text-xl max-w-xs sm:max-w-lg text-center mt-14 px-2 mx-auto'>Cross-chain interoperability made easy with our automation middleware.</span>
           <button className='w-44 h-12 bg-[#2BFFB1] text-centre rounded-xl mt-8  mx-auto'>
-            <span className='text-md text-[#000000] font-normal'>Let's Chat</span>
+            <a href='https://calendly.com/timbresociety' target="_blank" rel="noreferrer" className='text-md text-[#000000] font-normal'>Let's Chat</a>
           </button>
         </div>
 
