@@ -7,7 +7,7 @@ import AutoMob from "../assests/AutopayMob.png";
 
 function Autopay() {
   return (
-    <div className="sm:w-[90%] h-[983px] md:h-[800px] relative mt-10 sm:mt-36  mx-auto text-[#FFFFFF] leading-8 tracking-wide ">
+    <div className="w-[390px] sm:w-[90%]  h-[983px] md:h-[800px] relative mt-10 sm:mt-36  mx-auto text-[#FFFFFF] leading-8 tracking-wide ">
       <img src={Back} className="w-[656.01px] mx-auto hidden sm:flex"></img>
       <div className="absolute  top-0 ">
         <div className="w-full relative  ">
