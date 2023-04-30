@@ -8,7 +8,7 @@ function SectionOne() {
     <div className='max-w-7xl px-4 sm:px-8 '>
     <div className='mt-4 mx-auto relative ' >
         <img src={SecOne} className='w-full h-full hidden sm:flex'></img>
-        <img  src={SecOneMob} className='max-w-xs mx-auto h-full sm:hidden'></img>
+        <img  src={SecOneMob} className='max-w-lg mx-auto h-full sm:hidden'></img>
         <div className='absolute w-full h-fit top-16  flex flex-col justify-center items-center font-medium  '>
             <span className='mx-auto hidden sm:flex'><img src={LogoMob} className='w-[117.39px] h-[88px]'></img></span>
             <span className='text-[#FFFFFF] text-xl max-w-xs sm:max-w-lg text-center mt-14 px-2 mx-auto'>Cross-chain interoperability made easy with our automation middleware.</span>
