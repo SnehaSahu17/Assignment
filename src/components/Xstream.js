@@ -6,8 +6,8 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 function Xstream() {
   return (
-    <div className='w-[90%] relative mx-auto text-[#FFFFFF] leading-8 tracking-wide '>
-        <img src={Back} className='w-2/3 mx-auto'></img>
+    <div className='w-[90%] relative mx-auto text-[#FFFFFF] h-[800px] leading-8 tracking-wide '>
+        <img src={Back} className='w-[656.01px]  mx-[60%]'></img>
         <div className='absolute  top-0 '>
             <div className="w-full relative  ">
                 <img src={stream}></img>
@@ -19,7 +19,7 @@ function Xstream() {
             
             <div className='flex mt-20'>
                 <p className='font-normal text-xl w-2/5 '>Meet XStream, the ultimate cross-chain streaming solution that combines the power of Connext, Superfluid, and Gelato to make your life as a developer easier. With XStream, you can effortlessly set up scheduled payment streams across EVM-compatible chains for single or multiple recipients in just one transaction. </p>
-                <img src={Stars} className='ml-28'></img>
+                <img src={Stars} className='ml-[28rem]'></img>
             </div>
 
            
