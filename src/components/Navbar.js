@@ -37,14 +37,14 @@ function Navbar() {
             <a href='\' className='block sm:hidden'><img src={LogoMob} width={50} height={50}></img></a>
             
         </div>
-        <div className='text-[#838383] text-lg font-medium space-x-20 hidden sm:flex'>
-            <a href='\'>
+        <div className='text-[#838383]  text-lg font-medium space-x-20 hidden sm:flex'>
+            <a href='\' className='hover:text-[#2BFFB1]'>
                 Autopay
             </a>
-            <a href='\'>
+            <a href='\' className='hover:text-[#2BFFB1]'>
                 XStream
             </a>
-            <a href='\'>
+            <a href='\' className='hover:text-[#2BFFB1]'>
                 SwapX
             </a>
         </div>
