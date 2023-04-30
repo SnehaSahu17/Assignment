@@ -2,7 +2,7 @@
 function Card({src,name,company,quote}) {
     return (
       <>
-      <div className="sm:w-[430px] sm:h-[498px] w-[342px] h-[498px] sm:p-4 flex flex-col relative text-[#FFFFFF] leading-8 tracking-wide">
+      <div className="sm:w-[430px] sm:h-[498px] w-[370px] h-[498px] sm:p-4 flex flex-col relative text-[#FFFFFF] leading-8 tracking-wide">
          <img src={src} className="h-full w-full"></img>
          <div className="absolute top-20 left-10 w-full">
             <p className="font-normal text-xl w-[80%]">{quote}</p>

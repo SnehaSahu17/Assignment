@@ -21,7 +21,7 @@ function Sponser() {
             </div>
          </div>
 
-         < div className='sm:p-2 space-x-8 sm:space-x-0 mt-8 flex items-center justify-start overflow-x-auto scroll-smooth  scrollbar-hide'>
+         < div className='sm:p-2 space-x-2 sm:space-x-0 mt-8 flex items-center justify-start overflow-x-auto scroll-smooth  scrollbar-hide'>
          <div>
          <Card src={Person1} name="Arjun" company="Connext" quote={`“Since integrating Autopay into our dApp, managing subscriptions and payouts has become a breeze. Our users love the seamless experience, and we couldn't be happier with the results”` }/>
         </div>
