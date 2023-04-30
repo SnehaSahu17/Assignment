@@ -7,7 +7,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 function Xstream() {
   return (
     <div className='w-[90%] relative mx-auto text-[#FFFFFF] h-[800px] leading-8 tracking-wide '>
-        <img src={Back} className='w-[656.01px]  mx-[60%]'></img>
+        {/* <img src={Back} className='w-[656.01px]  mx-[60%]'></img> */}
         <div className='absolute  top-0 '>
             <div className="w-full relative  ">
                 <img src={stream}></img>

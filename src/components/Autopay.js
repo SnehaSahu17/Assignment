@@ -7,7 +7,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 function Autopay() {
   return (
     <div className='w-[90%] relative mt-44 h-[800px] mx-auto text-[#FFFFFF] leading-8 tracking-wide '>
-        <img src={Back} className='w-[656.01px] mx-auto'></img>
+        {/* <img src={Back} className='w-[656.01px] mx-auto'></img> */}
         <div className='absolute  top-0 '>
             <div className="w-full relative  ">
                 <img src={Auto}></img>
