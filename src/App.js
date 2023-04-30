@@ -20,8 +20,9 @@ function App() {
      <Xstream/>
     
      <Swapx/>
-      {/*
+      
      <ForDeveloper/>
+     {/*
      <Sponser/>
      <div className="pb-20"><Footer/></div> */}
      </div>
