@@ -15,9 +15,12 @@ function App() {
      <div className="pt-14 px-8"><Navbar/></div>
      <SectionOne/>
      <SectionTwo/>
-     {/* <Autopay/>
+     <Autopay/>
+     
      <Xstream/>
+    
      <Swapx/>
+      {/*
      <ForDeveloper/>
      <Sponser/>
      <div className="pb-20"><Footer/></div> */}
